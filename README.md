@@ -1,16 +1,19 @@
-# Work at BigPanda !
-![](https://wd8zs2btvq27hrm13haibaxf-wpengine.netdna-ssl.com/wp-content/uploads/2018/09/Header_08.png)
+# Getting the code
+git clone git@bitbucket.org:haim_daniel/bp_challenge.git
 
-# The Position
-- Backend Engineer: check out the [backend-engineer](https://github.com/bigpandaio/challenge/tree/backend-engineer) branch of this repository.
-- Sr. DevOps Engineer: check out the [sr-devops-engineer](https://github.com/bigpandaio/challenge/tree/sr-devops-engineer) branch of this repository.
+# Installation 
+    $ cd bp_challenge && \
+    virtualenv -p python3 venv && \
+    . venv/bin/activate && \
+    python setup.py install
 
-# How do I submit my task?
-- Fork this repository.
-- Check out the relevant branch.
-- Commit your work.
-- Submit a pull request against this upstream repository.
+# Running the service
+    # make sure you're activated the venv from prev step
+    $ bpc
 
-OR
+# Using the service
+    $ curl http://localhost:8080/events/countByEventType
+    {"baz":2,"foo":3}
+    $ curl http://localhost:8080/events/countWords
+    {"amet":3,"dolor":13,"ipsum":11,"lorem":13,"sit":10}
 
-If you need to be discrete, send a mail to [challenge@bigpanda.io](mailto:challenge@bigpanda.io).
