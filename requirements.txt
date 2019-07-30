@@ -1,2 +1,2 @@
-flask
-rx
+Flask==1.1.1
+Rx==3.0.1

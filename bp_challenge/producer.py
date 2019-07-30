@@ -4,7 +4,7 @@ import subprocess
 
 def generate_data():
     p = subprocess.Popen(
-        '/home/me/projects/bp-challenge/bin/generator-linux-amd64',
+        'generator-linux-amd64',
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,
         shell=False,

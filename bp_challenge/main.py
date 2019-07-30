@@ -7,8 +7,8 @@ import rx
 from rx import operators as op
 from flask import Flask
 
-import producer
-import worker
+from bp_challenge import producer
+from bp_challenge import worker
 
 app = Flask(__name__)
 
