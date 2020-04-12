@@ -1,7 +1,5 @@
 # Getting the code
-    git clone git@bitbucket.org:haim_daniel/bp_challenge.git
-  or 
-    wget https://drive.google.com/open?id=1xXmsuVwaNm1wcucfdkSd0MdK0473SvfL
+    git clone git@github.com:haim0n/bp_challenge.git
 
 # Installation
     # extract the tarball
